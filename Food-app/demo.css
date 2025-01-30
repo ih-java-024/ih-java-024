@@ -1,0 +1,161 @@
+#home{
+    background-image: url("C:/Users/ravik/OneDrive/Desktop/FoodApp/Food_App/images/home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+body{
+    background-color: #F8F9FA;
+}
+#bg{
+    width: 300px;
+    height: 300px;
+    margin: 35px;
+    float: right;
+    margin-top:30px;
+
+}
+.text{
+    margin-top: 20px;
+    padding-left: 20%;
+    float: left;
+}
+.card-body{
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+}
+.card-img-top{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:10% 25% 5% 40%;
+
+}
+.card-img-bottom{
+    position: relative;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+.special{
+    align-items: center;
+    text-align: center;
+}
+#over{
+    margin:2px;
+}
+#nav
+{
+    margin-left: 480px;
+}
+.special{
+    padding: 0 10% 1% 10%;
+}
+#another{
+    padding: 20px;
+}
+#badge{
+    position: absolute;
+    top:30px;
+    left: 28px;
+    background:red;
+    text-align: center;
+    color:white;
+    font-size:15px;
+    width:0%;
+    height:10px;
+}
+button{
+    margin: 8px;
+}
+#btn
+{
+    width:100px;
+    margin-left:3px;
+}
+.checked{
+    color: orange;
+}
+#img-support{
+    margin-top:20px ;
+    border: 3px solid black;
+    border-radius:50%;
+    padding: 3px;
+
+}
+.card-img-mid{
+    margin: 5px;
+    
+    display: flexbox;
+}
+#reviews{
+    position: relative;
+    border: 7px solid white;
+    padding: 5px;
+    margin: 0;
+}
+#image{
+    position: absolute;
+    top: -15%;
+    left: 40%;
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 5px solud white ;
+    background-color: #F8F9FA;
+    padding: 3px;
+}
+#padding{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+#order{
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+#order-img{
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+}
+input[type="text"],input[type="email"]{
+    width: 150px;
+    margin: 5px;
+}
+footer{
+    margin: 5px -150px;
+}
+#text
+{
+    margin-left: 40px;
+    width:60%;
+    margin-right:12px;
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:720px){
+    #text{
+        width:85%;
+            
+    } 
+    #bg
+    {
+        margin-left:2px;
+        width:80%;
+    } 
+    #nav
+    {
+    margin-left: 0px;
+    }
+
+}
